@@ -1,0 +1,55 @@
+# Ignore everything
+*
+
+# But don't ignore these source files and directories
+!/*.py
+!/email_pipeline
+!/email_pipeline/**/*.py
+!/email_pipeline/**/
+!/requirements.txt
+!.gitignore
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore generated directories and files
+extracted_data/
+processed_markdown/
+final_json/
+*.eml
+*.md
+*.json
+*.pst
+venv/
+.DS_Store
+
+# Environment and secrets
+.env
+.env.*
+*.key
+*.pem
+*.cert
+secrets/
+
+# IDE settings
+.idea/
+.vscode/
+*.sublime-*
+
+# Logs and backups
+*.log
+*~
+*.bak
+*.swp
+.*.swp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 
